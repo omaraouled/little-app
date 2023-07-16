@@ -1,12 +1,38 @@
+import React from "react";
+
 function Footer () {
     return (
         <footer>
-            <ul>
-                <li>Doormat Navigation</li>
-                <li>Contacts</li>
-                <li>Social Media</li>
-            </ul>
-        </footer>
+        <div class="footer">
+        <h5>Doormat Navigation</h5>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Menu</li>
+          <li>Reservations</li>
+          <li>Order Online</li>
+          <li>Login</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h5>Contacts</h5>
+        <ul>
+          <li>Address</li>
+          <li>Phone number</li>
+          <li>Email</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h5>Social Media</h5>
+        <ul>
+          <li>facebook</li>
+          <li>About</li>
+          <li>twitter</li>
+          <li>instagram</li>
+          <li>youtube</li>
+        </ul>
+      </div>
+      </footer>
     )
 }
 

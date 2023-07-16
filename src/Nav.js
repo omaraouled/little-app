@@ -1,15 +1,18 @@
+import React from "react";
+
 function Nav () {
     return (
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order Online</li>
-                <li>Login</li>
-            </ul>
-        </nav>
+        <img src="little_logo.jpg"/>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Menu</li>
+          <li>Reservations</li>
+          <li>Order Online</li>
+          <li>Login</li>
+        </ul>
+      </nav>
     )
 }
 
