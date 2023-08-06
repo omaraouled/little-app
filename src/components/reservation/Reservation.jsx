@@ -6,19 +6,16 @@ function Reservation() {
     <div className="reservation-wrapper">
       <div className="reservation-container global-max-width">
         <div className="reservation-text">
-          <h2>Experience the perfect balance of tradition and luxury.</h2>
+          <h2>Enjoy beautiful scenary and delicious cusine.</h2>
           <p>
-            At Little Lemon, we take great pride in providing our customers with
-            the greatest luxurious experience with a touch of <em>tradition</em>
-            .
+            Reserve a table for your party. We have various table options to fit all your family and friends.
           </p>
-          <p>Book a table with us to share in this experience.</p>
+          
         </div>
         <div className="reservation-form">
           <h1>Reserve a Table</h1>
           <p>
-            Please fill in and submit form to book your reservation at Little
-            Lemon.
+            Please provide the below info to book your table.
           </p>
           <ReservationForm />
         </div>

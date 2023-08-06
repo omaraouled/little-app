@@ -45,7 +45,7 @@ function ReservationForm() {
           <label htmlFor="name">Full Name*</label>
           <input
             type="text"
-            placeholder="John Doe"
+            placeholder="customer name"
             name="name"
             {...register("name")}
           />
@@ -56,7 +56,7 @@ function ReservationForm() {
           <label htmlFor="email">Email*</label>
           <input
             type="text"
-            placeholder="jonhdoe@email.com"
+            placeholder="customer@email.com"
             name="email"
             {...register("email")}
           />
@@ -67,7 +67,7 @@ function ReservationForm() {
           <label htmlFor="cellPhone">Cell Phone*</label>
           <input
             type="tel"
-            placeholder="123 123 1234"
+            placeholder="555 555 5555"
             name="cellPhone"
             {...register("cellPhone")}
           />
